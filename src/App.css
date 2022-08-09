@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=cyrillic-ext');
+
+.content-wrapper {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+body {
+   position: relative;
+   min-width: 1490px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+   text-decoration: none;
+}
+
+.main-container {
+   min-height: calc(100vh - 677px);
+}
+
+.logo {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+
+   margin-top: auto;
+   margin-bottom: auto;
+
+   color: #e5e5e5;
+}
+
+.title {
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 35px;
+   color: #ffffff;
+}

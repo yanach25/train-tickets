@@ -1,0 +1,104 @@
+/* PriceFilter */
+
+.price-filter {
+    padding-bottom: 62px;
+    position: relative;
+}
+
+.price-filter::after {
+    content: '';
+    position: absolute;
+    width: 364px;
+    height: 0;
+    border: 1px solid #e5e5e5;
+    right: -38px;
+    bottom: 0;
+}
+
+.price-filter__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #ffffff;
+    margin-bottom: 12px;
+    margin-top: 37px;
+}
+
+.input-range {
+    /* padding-left: 10px; */
+}
+
+.price-filter__label-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.price-filter__label {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.price-filter .input-range__label--min,
+.price-filter .input-range__label--max {
+    top: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #e5e5e5;
+}
+
+.price-filter .input-range__label--min {
+    left: 20px;
+    display: none;
+}
+
+.price-filter .input-range__label--max {
+    right: 20px;
+    top: 25px;
+}
+
+.price-filter .input-range__label--value {
+    top: 8px;
+}
+.input-range__label-container {
+    right: 50%;
+}
+
+.price-filter .input-range__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #e5e5e5;
+}
+
+.input-range__track {
+    height: 19px;
+
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 8px;
+    top: 0;
+}
+.input-range__track--background {
+    background: inherit;
+}
+
+.input-range__track--active {
+    background: #ffa800;
+}
+
+.input-range__slider {
+    width: 24px;
+    height: 24px;
+
+    background: #ffffff;
+    border: none;
+    top: 0;
+    margin-top: -22px;
+    margin-left: -12px;
+}

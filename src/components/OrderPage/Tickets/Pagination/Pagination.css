@@ -1,0 +1,97 @@
+.pagination {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 142px;
+   margin-bottom: 193px;
+}
+
+.pagination-button {
+   width: 84px;
+   height: 75px;
+   border: 2px solid #c4c4c4;
+   box-sizing: border-box;
+   border-radius: 5px;
+   background-color: inherit;
+   position: relative;
+
+   cursor: pointer;
+}
+
+.pagination-button__prev::before {
+   content: '';
+   position: absolute;
+   width: 18px;
+   height: 29px;
+   top: 23px;
+   right: 30px;
+   background-image: url(../../../../assets/img/tickets/previous.svg);
+   background-repeat: no-repeat;
+}
+
+.pagination-button__next {
+   margin-left: 35px;
+   position: relative;
+}
+
+.pagination-button__next::before {
+   content: '';
+   position: absolute;
+   width: 18px;
+   height: 29px;
+   top: 23px;
+   right: 30px;
+
+   background-image: url(../../../../assets/img/tickets/next.svg);
+   background-repeat: no-repeat;
+}
+
+.pagination-list {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   align-items: flex-start;
+}
+
+.pagination-item {
+   width: 85px;
+   height: 74px;
+   margin-left: 35px;
+
+   border: 2px solid #c4c4c4;
+   box-sizing: border-box;
+   border-radius: 5px;
+
+   font-weight: 700;
+   font-size: 30px;
+
+   color: #928f94;
+
+   text-align: center;
+   line-height: 75px;
+
+   cursor: pointer;
+}
+
+.active,
+.pagination-item:hover.active {
+   width: 85px;
+   height: 75px;
+   left: 1219px;
+   top: 2878px;
+
+   background: #ffa800;
+   border-radius: 5px;
+   border: 0 solid #ffa800;
+
+   color: #ffffff;
+}
+
+.pagination-item:hover,
+.pagination-button:hover {
+   border: 2px solid #ffa800;
+   box-sizing: border-box;
+   border-radius: 5px;
+   color: #ffa800;
+   fill: #ffa800;
+}

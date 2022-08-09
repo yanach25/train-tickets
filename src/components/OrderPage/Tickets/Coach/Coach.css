@@ -1,0 +1,251 @@
+.coach-info {
+   display: flex;
+}
+.coach-info__header {
+   box-sizing: border-box;
+   width: 190px;
+   height: 161px;
+   background: #ffd98f;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-left: 30px;
+}
+.coach-number {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 84px;
+
+   margin: 0;
+   color: #292929;
+}
+.coach-title {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   margin: 0;
+}
+.coach-info__card {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+
+   color: #000000;
+}
+.coach-info__card-seats {
+   padding-left: 85px;
+}
+
+.coach-info__card-price {
+   padding-left: 100px;
+   font-weight: 700;
+}
+
+.coach-info__card-services {
+   padding-left: 100px;
+}
+
+.coach-info__title {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #928f94;
+   margin-bottom: 0;
+}
+
+.coach-ticket__currency {
+   height: 17px;
+   margin-left: 10px;
+}
+.coach-info__count {
+   color: #000000;
+}
+.coach-info__text:last-child {
+   margin-bottom: 0;
+}
+
+.coach-services {
+   margin-top: 14px;
+}
+
+.service {
+   width: 36px;
+   height: 34.11px;
+   border: 1px solid #292929;
+   border-radius: 5px;
+
+   background-color: transparent;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.service:nth-child(n + 2) {
+   margin-left: 13px;
+}
+
+.service:hover {
+   background-color: #ffa800;
+}
+
+.service-active {
+   border-color: #fdb935;
+   background-color: #fdb935;
+}
+
+.service:disabled {
+   border-color: #fcdc9d;
+   background-color: #fcdc9d;
+}
+
+.air-service {
+   background-image: url('../../../../assets/img/tickets/options/air-service.svg');
+}
+
+.air-service:disabled {
+   background-image: url('../../../../assets/img/tickets/options/air-service-disable.svg');
+}
+
+.air-service__active {
+   background-image: url('../../../../assets/img/tickets/options/air-service-active.svg');
+}
+
+.wifi-service {
+   background-image: url('../../../../assets/img/tickets/options/wifi-service.svg');
+}
+
+.wifi-service:disabled {
+   background-image: url('../../../../assets/img/tickets/options/wifi-service-disable.svg');
+}
+
+.wifi-service__active {
+   background-image: url('../../../../assets/img/tickets/options/wifi-service-active.svg');
+}
+
+.linens-service {
+   background-image: url('../../../../assets/img/tickets/options/linen-service.svg');
+}
+
+.linens-service:disabled {
+   background-image: url('../../../../assets/img/tickets/options/linen-service-disable.svg');
+}
+
+.linens-service__active {
+   background-image: url('../../../../assets/img/tickets/options/linen-service-active.svg');
+}
+
+.food-service {
+   background-image: url('../../../../assets/img/tickets/options/food-service.svg');
+}
+
+.food-service:disabled {
+   background-image: url('../../../../assets/img/tickets/options/food-service-disable.svg');
+}
+
+.food-service__active {
+   background-image: url('../../../../assets/img/tickets/options/food-service-active.svg');
+}
+
+.coach-seats__list {
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0;
+   width: 921px;
+   height: 145px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.coach-demand {
+   margin-left: auto;
+   margin-right: 42px;
+   width: 199px;
+   padding: 16px;
+   border-radius: 5px;
+
+   background-color: #f3f3f3;
+
+   font-size: 16px;
+   line-height: 19px;
+   color: #292929;
+}
+
+.coach-seats__list-third-class {
+   background-image: url('../../../../assets/img/classes/third-class.png');
+}
+
+.coach-seats__list-second-class {
+   background-image: url('../../../../assets/img/classes/second-class.png');
+}
+
+.coach-seats__list-first-class {
+   background-image: url('../../../../assets/img/classes/first-class.png');
+}
+
+.coach-seats__list-fourth-class {
+   background-image: url('../../../../assets/img/classes/fourth-class.png');
+}
+
+.coach-seat {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 0;
+   background-color: #f2f2f2;
+}
+
+.coach-seat__active {
+   border: 2px solid #ffa800;
+}
+
+.coach-seat:disabled {
+   background-color: #cccccc;
+
+   color: #ffffff;
+}
+
+.coach-seat__top {
+   width: 27px;
+   height: 30px;
+}
+
+.coach-seat__bottom {
+   width: 43px;
+   height: 24px;
+}
+
+.coach-seat__lux {
+   width: 26px;
+   height: 59px;
+}
+
+.coach-seat__single {
+   width: 27px;
+   height: 19px;
+}
+
+.coach-total {
+   height: 81px;
+}
+
+.coach-total__text {
+   margin: 0;
+   padding-top: 19px;
+   text-align: end;
+   padding-right: 38px;
+}
+
+.coach-total__value {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   padding-right: 5px;
+
+   color: #ffa800;
+}
+
+.coach-total__currency {
+   height: 17px;
+}

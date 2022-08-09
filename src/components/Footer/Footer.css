@@ -1,0 +1,139 @@
+.footer {
+   height: 519px;
+
+   background: #2d2b2f;
+   color: #e5e5e5;
+}
+
+.footer-content {
+   display: flex;
+}
+
+.footer-contacts {
+   box-sizing: border-box;
+   padding-left: 40px;
+   width: 500px;
+}
+
+@media (min-width: 1420px) {
+   .footer-contacts {
+      padding-left: 85px;
+      width: unset;
+   }
+}
+
+
+.footer-title {
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 35px;
+   margin-top: 49px;
+   margin-bottom: 34px;
+
+   color: #ffffff;
+}
+
+.second-title {
+   margin-top: 29px;
+   margin-bottom: 28px;
+}
+
+.footer-contacts__list {
+   min-width: 540px;
+   list-style-type: none;
+   margin: 0;
+   margin-bottom: 52px;
+   padding: 0;
+   padding-left: 66px;
+   position: relative;
+}
+.footer-contacts__list-item {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+}
+.footer-contacts__list-item-text {
+   margin: 29px 0 0 0;
+}
+
+.footer-contacts__icon {
+   position: absolute;
+   left: 0;
+}
+
+.footer-subscribe__form-label {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+}
+
+.footer-subscribe__form-input-wrapper {
+   display: flex;
+   height: 60px;
+   margin-top: 15px;
+}
+
+.footer-subscribe__form-input {
+   width: 447px;
+   border-radius: 3px;
+   padding-left: 21px;
+   font-weight: 400;
+   font-size: 24px;
+   font-family: inherit;
+}
+.footer-subscribe__form-input::placeholder {
+   color: #e5e5e5;
+}
+
+.footer-subscribe__form-button {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   text-transform: uppercase;
+   padding-right: 17px;
+   padding-left: 17px;
+   margin-left: 33px;
+
+   background: #2d2b2f;
+   color: #e5e5e5;
+   border: 1px solid #ffffff;
+   border-radius: 3px;
+}
+
+.footer-subscribe__form-button:hover {
+   border-color: transparent;
+   background: #ffca62;
+   color: #2d2b2f;
+}
+
+.footer-subscribe__form-button:active {
+   border-color: transparent;
+   background-color: #ffffff;
+   color: #2d2b2f;
+}
+
+.footer-subscribe__link {
+   margin-right: 49px;
+   fill: #ffffff;
+}
+
+.footer-subscribe__link:hover {
+   border-color: transparent;
+   fill: #ffca62;
+}
+
+.footer-logo {
+   border-top: 1px solid #e5e5e5;
+   padding-top: 26px;
+}
+
+.footer-logo__wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-copyright {
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 28px;
+}

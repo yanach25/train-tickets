@@ -1,0 +1,21 @@
+.options-filter__list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #ffffff;
+}
+.options-filter__list {
+    padding-left: 36px;
+    position: relative;
+}
+
+.options-filter__list::after {
+    content: '';
+    position: absolute;
+    width: 364px;
+    height: 0;
+    border: 1px solid #e5e5e5;
+    right: -38px;
+    bottom: 0;
+}

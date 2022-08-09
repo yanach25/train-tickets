@@ -1,0 +1,26 @@
+.menu {
+    min-height: 94px;
+    left: 0;
+    right: 0;
+    background: #292929;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: flex-start;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    margin-right: 83px;
+
+    color: #ffffff;
+}

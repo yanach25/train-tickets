@@ -1,0 +1,54 @@
+.date-filter__fieldset {
+    margin-bottom: 33px;
+    position: relative;
+}
+
+.date-filter__fieldset::after {
+    content: '';
+    position: absolute;
+    width: 364px;
+    height: 0;
+    border: 1px solid #e5e5e5;
+    right: -38px;
+    bottom: -33px;
+}
+
+.date-filter__control {
+    margin-bottom: 26px;
+}
+.date-filter__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.date-filter__field {
+    display: block;
+    box-sizing: border-box;
+    width: 295px;
+    height: 43px;
+
+    border: 0;
+    border-radius: 3px;
+    padding-left: 21px;
+
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+
+    font-weight: 400;
+
+    color: #292929;
+    margin-top: 13px;
+}
+
+.date-filter__field::placeholder {
+    color: #e5e5e5;
+}
+.date-filter__field-date {
+    background-image: url('../../../../../assets/img/form/date-icon-mini.svg');
+}

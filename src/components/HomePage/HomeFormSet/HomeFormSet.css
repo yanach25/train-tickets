@@ -1,0 +1,56 @@
+.home-form {
+   background-image: url('../../../assets/img/backgrounds/home-form-set.png');
+   background-color: #9b6909;
+   background-size: cover;
+   height: 985px;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   vertical-align: middle;
+
+   box-sizing: border-box;
+   border-bottom: 8px solid #ffa800;
+}
+
+.home-form__wrapper {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   z-index: 0;
+}
+
+.home-form__title {
+   position: absolute;
+   margin-left: 100px;
+   margin-top: 80px;
+   top: 50%;
+}
+
+.home-form__title .title {
+   font-weight: 700;
+   margin: 0;
+
+   font-size: 72px;
+   line-height: 84px;
+
+   color: #ffffff;
+}
+.home-form__title .subtitle {
+   font-weight: 100;
+}
+
+.homeForm {
+   height: 574px;
+   width: 729px;
+   right: 0;
+}
+
+.homeForm-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: 24px;
+   margin-left: 24px;
+   margin-top: 80px;
+   /* border-bottom: 8px solid #ffa800; */
+}

@@ -1,0 +1,73 @@
+.last-ticket {
+    background: #ffffff;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    box-shadow: 0 2px 2px rgba(62, 60, 65, 0.25);
+
+    margin-bottom: 17px;
+    padding: 23px 18px 16px 18px;
+}
+.last-ticket__header {
+    display: flex;
+    justify-content: space-between;
+}
+.last-ticket__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 3px;
+
+    text-transform: capitalize;
+    color: #292929;
+}
+
+.last-ticket__title-to {
+    text-align: right;
+}
+.last-ticket__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-transform: none;
+    color: #928f94;
+}
+
+.last-ticket__info {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.last-ticket__options {
+    display: flex;
+    align-items: center;
+}
+
+.last-ticket__options-icon {
+    margin-right: 18px;
+}
+
+.last-ticket__price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #928f94;
+}
+
+.last-ticket__price-range {
+    text-align: right;
+}
+.last-ticket__price-value {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #ffa800;
+}
+
+.last-ticket__currency {
+    margin-left: 5px;
+}

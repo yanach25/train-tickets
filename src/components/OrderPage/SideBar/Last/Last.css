@@ -1,0 +1,13 @@
+.last {
+   margin-bottom: 50px;
+}
+.last-title {
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 35px;
+   text-transform: uppercase;
+
+   color: #000000;
+   margin-bottom: 32px;
+}
+

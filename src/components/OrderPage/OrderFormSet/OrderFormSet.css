@@ -1,0 +1,39 @@
+.order-form-set {
+   background-image: url('../../../assets/img/backgrounds/order-form-set.png');
+   background-color: #9b6909;
+   background-size: cover;
+   height: 592px;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   vertical-align: middle;
+   box-sizing: border-box;
+}
+
+.order-form-wrapper {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   width: 100%;
+   height: 100%;
+   z-index: 0;
+}
+
+.orderForm {
+   height: 324px;
+   width: 1490px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: center;
+
+   border-bottom: 0;
+}
+
+.orderForm-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   width: 1420px;
+   justify-content: flex-start;
+}

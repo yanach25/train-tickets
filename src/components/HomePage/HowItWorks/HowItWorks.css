@@ -1,0 +1,77 @@
+.how-it-works {
+   min-height: 575px;
+
+   display: flex;
+   align-items: center;
+
+   background-color: #ffa800;
+   background-image: url('../../../assets/img/backgrounds/home-form-set.png');
+   background-size: cover;
+}
+
+.how-it-works__title {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.how-it-works__title .title {
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 42px;
+   text-transform: uppercase;
+   margin: 0;
+
+   color: #ffffff;
+}
+
+
+.how-it-works__title .button {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+
+   height: 60px;
+
+   padding-right: 76px;
+   padding-left: 76px;
+   margin-right: 20px;
+
+   background: inherit;
+   color: #e5e5e5;
+   border: 1px solid #ffffff;
+   border-radius: 3px;
+}
+
+.how-it-works__title .button:hover {
+   border-color: transparent;
+   background: #ffca62;
+   color: inherit;
+}
+
+.how-it-works__title .button:active {
+   border-color: transparent;
+   background-color: #ffffff;
+   color: #2d2b2f;
+}
+
+.how-it-works__info {
+   width: 920px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 107px;
+
+   display: flex;
+   justify-content: space-between;
+}
+
+.how-it-works__info-card {
+   text-align: center;
+}
+
+.how-it-works__info-card-text {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   color: #e5e5e5;
+   margin-top: 34px;
+}
